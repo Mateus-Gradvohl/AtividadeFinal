@@ -1,4 +1,6 @@
-public class Calculadora {
+public class Calculadora { 
+
+    //METODOS A SEREM IMPLEMENTADOS 
 
     public double somar() {
         return 0;
