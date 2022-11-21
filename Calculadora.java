@@ -2,7 +2,7 @@ public class Calculadora {
 
     //METODOS A SEREM IMPLEMENTADOS 
 
-    public double somar() {
+    public double somar(double VariavelA, double VariavelB) {
         return 0;
     }
     public double subtrair() {
