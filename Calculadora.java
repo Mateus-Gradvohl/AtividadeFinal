@@ -14,7 +14,7 @@ public class Calculadora {
         return variavelA * variavelB;
     }
     public double dividir(double variavelA, double variavelB){
-        if(variavelA != 0) {
+        if(variavelB != 0) {
             return variavelA / variavelB;
        }
        else {
