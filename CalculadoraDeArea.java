@@ -5,36 +5,36 @@ public class CalculadoraDeArea extends Calculadora{
         Calculadora areaDaFigura = new Calculadora();
         Scanner scanner = new Scanner(System.in);
 
-        double VariavelA,VariavelB;
+        double variavelA,variavelB;
 
         public void quadrado(){
             System.out.print("Informe o valor da base: ");
-            VariavelA = scanner.nextDouble();
+            variavelA = scanner.nextDouble();
             System.out.print("Informe o valor a altura: ");
-            VariavelB = scanner.nextDouble();
-            System.out.println("Resposta: " + areaDaFigura.multiplicar(VariavelA, VariavelB) );
+            variavelB = scanner.nextDouble();
+            System.out.println("Resposta: " + areaDaFigura.multiplicar(variavelA, variavelB) );
         }
         public void circuferencia(){
-            VariavelB = 2;
+            variavelB = 2;
             double ValorDePI = 3.14;
             System.out.print("informe o valor do raio da circunferência: ");
-            VariavelA = scanner.nextDouble();
-            System.out.print("Resultado: " + ValorDePI * areaDaFigura.exponencial(VariavelA,VariavelB));
+            variavelA = scanner.nextDouble();
+            System.out.print("Resultado: " + ValorDePI * areaDaFigura.exponencial(variavelA,variavelB));
         }
         public void trapezio(){
             System.out.print("Informe a altura do trapézio: ");
             double alturaTrapezio = scanner.nextDouble();
             System.out.print("Informe o valor da maior base do trapézio: ");
-            VariavelA = scanner.nextDouble();
+            variavelA = scanner.nextDouble();
             System.out.print("Informe o valor da menor base do trapézio: ");
-            VariavelB = scanner.nextDouble();
-            System.out.println("Resultado: " + areaDaFigura.somar(VariavelA, VariavelB) * alturaTrapezio);
+            variavelB = scanner.nextDouble();
+            System.out.println("Resultado: " + areaDaFigura.somar(variavelA, variavelB) * alturaTrapezio);
         }
         public void tiangulo(){
             System.out.print("Infome a altura do triângulo: ");
-            VariavelA = scanner.nextDouble();
+            variavelA = scanner.nextDouble();
             System.out.print("Informe o comprimento da base do triângulo: ");
-            VariavelB = scanner.nextDouble();
-            System.out.println("Resultado: " + areaDaFigura.multiplicar(VariavelA, VariavelB) / 2);
+            variavelB = scanner.nextDouble();
+            System.out.println("Resultado: " + areaDaFigura.multiplicar(variavelA, variavelB) / 2);
         }
 }
