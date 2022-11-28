@@ -8,7 +8,7 @@ public class Calculadora {
         return variavelA + variavelB;
     }
     public double subtrair() {
-        return 0;
+        return variavelA - variavelB;
     }
     public double multiplicar(double variavelA, double variavelB) {
         return variavelA * variavelB;
