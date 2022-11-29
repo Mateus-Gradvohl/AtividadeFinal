@@ -7,7 +7,7 @@ public class Calculadora {
     public double somar(double variavelA, double variavelB) {
         return variavelA + variavelB;
     }
-    public double subtrair() {
+    public double subtrair(double variavelA, double variavelB) {
         return variavelA - variavelB;
     }
     public double multiplicar(double variavelA, double variavelB) {
@@ -25,8 +25,8 @@ public class Calculadora {
     public double exponencial(double variavelA, double variavelB){
         return Math.pow(variavelA, variavelB);
     }
-    public double raizQuad(){
-        return 0;
+    public double raizQuad(variavelA){
+        return Math.sqrt(variavelA)
     }
     public double piso(){
         return Math.floor(variavelA);   
