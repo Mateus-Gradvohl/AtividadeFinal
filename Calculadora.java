@@ -26,7 +26,7 @@ public class Calculadora {
         return Math.pow(variavelA, variavelB);
     }
     public double raizQuad(double variavelA){
-        return Math.sqrt(variavelA)
+        return Math.sqrt(variavelA);
     }
     public double piso(){
         return Math.floor(variavelA);   
