@@ -25,13 +25,13 @@ public class Calculadora {
     public double exponencial(double variavelA, double variavelB){
         return Math.pow(variavelA, variavelB);
     }
-    public double raizQuad(variavelA){
+    public double raizQuad(double variavelA){
         return Math.sqrt(variavelA)
     }
     public double piso(){
         return Math.floor(variavelA);   
     }
     public double teto(){
-        return Math.floor(variavelA);
+        return Math.ceil(variavelA);
     }
 }
