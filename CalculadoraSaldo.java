@@ -12,7 +12,7 @@ public class CalculadoraSaldo extends Calculadora {
         System.out.println("O seu saldo atual é " + saldoAnterior +" Qual o valor do saque?");
         double saque = scanner.nextDouble();
         
-        double saldo = saldoAtual - saque ;
+        double saldo = saldoAnterior - saque ;
 		System.out.println("O seu novo saldo é " + saldo);
 
     }
